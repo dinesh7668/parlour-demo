@@ -1,4 +1,4 @@
-import React, { createContext, useState, useCallback } from 'react';
+import React, { createContext, useCallback } from 'react';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
 export interface Booking {

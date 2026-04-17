@@ -1,7 +1,7 @@
 export interface GalleryImage {
   id: string;
   url: string;
-  category: 'bridal' | 'party' | 'skincare' | 'hair' | 'before-after';
+  category: 'bridal' | 'party' | 'skincare' | 'hair' | 'before-after' | 'makeup';
   title: string;
   description: string;
 }

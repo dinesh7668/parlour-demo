@@ -5,7 +5,7 @@ import { useBooking } from '../hooks/useBooking';
 import { formatDate, formatTime } from '../utils/formatters';
 
 const AdminPanel: React.FC = () => {
-  const { bookings, deleteBooking, updateBooking } = useBooking();
+  const { bookings, deleteBooking } = useBooking();
   const [filterStatus, setFilterStatus] = useState<'all' | 'confirmed' | 'completed' | 'cancelled'>('all');
   const [showPassword, setShowPassword] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);

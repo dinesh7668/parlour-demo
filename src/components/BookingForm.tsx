@@ -13,7 +13,7 @@ interface BookingFormProps {
   showAdmin?: boolean;
 }
 
-const BookingForm: React.FC<BookingFormProps> = ({ onSuccess, showAdmin }) => {
+const BookingForm: React.FC<BookingFormProps> = ({ onSuccess }) => {
   const { addBooking } = useBooking();
   const [formData, setFormData] = useState({
     name: '',

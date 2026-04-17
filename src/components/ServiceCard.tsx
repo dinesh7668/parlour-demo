@@ -13,7 +13,6 @@ interface ServiceCardProps {
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({
-  id,
   icon,
   name,
   description,

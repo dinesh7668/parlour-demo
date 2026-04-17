@@ -1,11 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-interface SkeletonProps {
-  count?: number;
-  className?: string;
-}
-
 export const SkeletonCard: React.FC<{ count?: number }> = ({ count = 1 }) => {
   return (
     <>

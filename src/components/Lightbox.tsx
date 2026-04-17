@@ -88,7 +88,7 @@ const Lightbox: React.FC<LightboxProps> = ({
               {/* Image counter and title */}
               <div className="absolute bottom-4 left-4 right-4 bg-black/50 text-white p-3 rounded-lg backdrop-blur-sm">
                 <p className="font-semibold">{images[currentIndex].title}</p>
-                <p ClassNameName="text-sm text-gray-300">
+                <p className="text-sm text-gray-300">
                   {currentIndex + 1} / {images.length}
                 </p>
               </div>

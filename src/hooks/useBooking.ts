@@ -1,4 +1,4 @@
-import React, { useContext, useCallback } from 'react';
+import { useContext } from 'react';
 import { BookingContext } from '../context/BookingContext';
 
 export const useBooking = () => {
